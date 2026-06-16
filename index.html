@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>AR Food Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="game">
+    <video id="webcam" autoplay playsinline></video>
+    <canvas id="canvas"></canvas>
+
+    <div class="topbar">
+      <div>คะแนน: <span id="score">0</span></div>
+      <div>เวลา: <span id="time">60</span></div>
+    </div>
+
+    <div id="message">ยกมือขึ้นเพื่อเริ่มเล่น</div>
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
